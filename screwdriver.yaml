@@ -4,6 +4,7 @@ shared:
     email: [screwdriver.test.account@verizonmedia.com]
     statuses:
       - FAILURE
+      - SUCCESS
 jobs:
   main:
     requires: [~pr, ~commit]
