@@ -10,3 +10,4 @@ jobs:
     steps:
       - export: export GREETING="Hello, world!"
       - hello: echo $GREETING
+      - willFail: commandNotFound
