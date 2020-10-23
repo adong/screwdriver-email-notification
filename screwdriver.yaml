@@ -3,7 +3,7 @@ shared:
   settings:
     email:
       addresses:
-        - screwdriver.test.account@verizonmedia.com
+        - adong@verizonmedia.com
       statuses:
         - FAILURE
 jobs:
