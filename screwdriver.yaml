@@ -1,7 +1,9 @@
 shared:
   image: node:12
   settings:
-    email: [screwdriver.test.account@verizonmedia.com]
+    email:
+      addresses:
+        - screwdriver.test.account@verizonmedia.com
     statuses:
       - FAILURE
 jobs:
