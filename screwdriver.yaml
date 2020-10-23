@@ -4,8 +4,8 @@ shared:
     email:
       addresses:
         - screwdriver.test.account@verizonmedia.com
-    statuses:
-      - FAILURE
+      statuses:
+        - FAILURE
 jobs:
   main:
     requires: [~pr, ~commit]
